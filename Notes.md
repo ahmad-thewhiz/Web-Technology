@@ -1,3 +1,5 @@
+# Basics of Web Technology
+
 ## Network
 It is a collection of computers, servers, network devices, or other devices connected to one another to allow the sharing of data. An excellent example of a network is the Internet, which connects millions of people all over the world.
 
@@ -30,3 +32,49 @@ It is the address of a resource on the Internet. A URL indicates the location of
 
 ## GET, POST, PUT, DELETE
 These are the four basic HTTP methods used to retrieve web resources. GET is used to retrieve data from a server. POST is used to send data to a server to create or update a resource. PUT is used to create a new resource or update an existing resource. DELETE is used to delete a resource from a server.
+
+## HTTP
+It is a protocol that allows the fetching of resources, such as HTML documents. It is the foundation of data communication for the World Wide Web. It is a generic and stateless protocol which can be used for other purposes as well using extensions of its request methods, error codes, and headers.
+
+## Website
+It is a collection of web pages and related content that is identified by a common domain name and published on at least one web server. It is hosted on at least one web server, accessible via the Internet or a private local area network through an Internet address known as a Uniform Resource Locator (URL).
+
+# HTML
+
+## HTML Elements
+An HTML element is defined by a start tag, some content, and an end tag. 
+The HTML element is everything from the start tag to the end tag. 
+
+<tagname>Content goes here...</tagname>
+Examples of some HTML elements:
+<h1>Heading</h1>
+<p>Paragraph</p>
+
+An HTML element can have attributes. Attributes provide additional information about the element. Attributes are always included in the start tag.
+
+## Empty HTML Elements
+HTML elements with no content are called empty elements. Empty elements do not have an end tag.
+<br> - the line break element
+
+## HTML tag
+<html></html>
+The <html> tag represents the root of an HTML document. The <html> tag is the container for all other HTML elements (except for the <!DOCTYPE> tag).
+
+## Head tag
+The head element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+Metadata is not displayed, it typically defines the document title, styles, scripts, sets and other meta information.
+The following elements can be inside head tag:
+* <title>
+* <style>
+* <link>
+* <meta>
+* <script>
+...etc
+
+## Body Tag
+It defines the document's body, it contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+Note: there can only be one body in an HTML document.
+
+## Comment Tag
+<!--This is a comment. Comments are not displayed in the browser-->
+It is used to insert the comments in the source code. Comments are not displayed in the browsers. They are used to explain the code. 
