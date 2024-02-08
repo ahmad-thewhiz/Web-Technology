@@ -78,3 +78,20 @@ Note: there can only be one body in an HTML document.
 ## Comment Tag
 <!--This is a comment. Comments are not displayed in the browser-->
 It is used to insert the comments in the source code. Comments are not displayed in the browsers. They are used to explain the code. 
+
+## Pre Element
+<pre> </pre>It defines pre-formatted text. Element withing this tag is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.
+
+## Formatting elements
+These are elements which are designed to display special types of text:
+* <b> - Bold text
+* <strong> - Important text
+* <i> - Italic text
+* <em> - Emphasized text
+* <mark> - Marked text
+* <small> - Smaller text
+* <del> - Deleted text
+* <ins> - Inserted text
+* <sub> - Subscript text
+* <sup> - Superscript text
+
