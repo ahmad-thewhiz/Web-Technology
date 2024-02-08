@@ -95,3 +95,5 @@ These are elements which are designed to display special types of text:
 * <sub> - Subscript text
 * <sup> - Superscript text
 
+## Image Tag
+<img src="" alt=""> tag is used to embed an image in webpage. It is an empty tag, containing only attributes since it has no closing tag.
