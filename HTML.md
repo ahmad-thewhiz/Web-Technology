@@ -64,11 +64,11 @@ The <html> tag represents the root of an HTML document. The <html> tag is the co
 The head element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
 Metadata is not displayed, it typically defines the document title, styles, scripts, sets and other meta information.
 The following elements can be inside head tag:
-* <title>
-* <style>
-* <link>
-* <meta>
-* <script>
+* `<title>`
+* `<style>`
+* `<link>`
+* `<meta>`
+* `<script>`
 ...etc
 
 ## Body Tag
@@ -97,3 +97,32 @@ These are elements which are designed to display special types of text:
 
 ## Image Tag
 <img src="" alt=""> tag is used to embed an image in webpage. It is an empty tag, containing only attributes since it has no closing tag.
+
+## Hyperlinks
+<a href="url">link text</a> tag is used to create hyperlinks. It is an empty tag, containing only attributes since it has no closing tag. HTML links are called Hyperlinks, they can be clicked to hover to another document. Hovering the pointer over the link will display the URL. 
+By default links will appear as follows in the browser:
+* An unvisited link is underlined and blue
+* A visited link is underlined and purple
+* An active link is underlined and red
+
+## Links vs Hyperlinks
+A link is a connection from one web resource to another. A hyperlink is a link that is clickable.
+Example: <a href="https://www.example.com">Visit our HTML tutorial</a>
+
+## Absolute and Relative URLs
+* Absolute URLs: It is the full URL to the page. It includes the protocol, domain name, and path to the file. Example: <a href="https://www.example.com">Visit our HTML tutorial</a>
+* Relatice URLs: A local link (link to the same web site) is specified with a relative URL (without https://www.example.com) Example: <a href="about.html">About HTML Page</a>
+
+## Lists
+HTML lists are used to present list of information in well formed and semantic way. There are three different types of list in HTML and each one has a specific purpose and meaning.
+* Unordered List: An unordered list is a list of items marked with bullets. Use the <ul> tag to define an unordered list. Use the <li> tag to define each list item.
+* Ordered List: An ordered list is a list of items marked with numbers. Use the <ol> tag to define an ordered list. Use the <li> tag to define each list item.
+* Description List: A description list is a list of terms, with a description of each term. Use the <dl> tag to define the description list. Use the <dt> tag to define the term. Use the <dd> tag to define the description.
+
+## Tables
+The HTML <table> tag is used to create a table. A table is defined with the <table> tag. Each table row is defined with the <tr> tag. A table header is defined with the <th> tag. By default, table headings are bold and centered. A table data/cell is defined with the <td> tag.
+
+## Style
+The style attribute is used to add styles to an element, such as color, font, size, and more. The style attribute can contain any CSS property. The property is specified using a CSS property name, followed by a colon, followed by a value. The value is specified using the property's value.
+<tagname style="property:value;">
+
