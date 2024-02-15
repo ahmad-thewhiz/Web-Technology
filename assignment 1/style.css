@@ -1,12 +1,12 @@
 body {
   /* background-color: #1d292f;  */
-    background-color: white;
+  background-color: white;
 }
 
 .header {
-    background-color: #3b424e;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  background-color: #3b424e;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .main_container {
@@ -62,29 +62,29 @@ body {
 }
 
 .education {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
   /* border: 2px solid black; */
   border-radius: 10px;
   padding: 10px;
 }
 
-.education h2{
-    text-align: center;
+.education h2 {
+  text-align: center;
 }
 
 .education_details {
-    /* border: 2px solid black; */
-    border-radius: 10px;
-    padding: 10px;
-    width: 100%; /* Utilize maximum available width */
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%; /* Utilize maximum available width */
 }
 
 .education_details td {
-    width: 33.33%; /* Distribute columns equally */
+  width: 33.33%; /* Distribute columns equally */
 }
 
 .experience {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
   /* border: 2px solid black; */
   border-radius: 10px;
   padding: 10px;
@@ -92,36 +92,52 @@ body {
   margin-bottom: 10px;
 }
 
-.experience h2{
-    text-align: center;
+.experience h2 {
+  text-align: center;
 }
 
-.experience p{
-    padding-left: 10px;
+.experience p {
+  padding-left: 10px;
 }
 
 .experience_details {
-    /* border: 2px solid black; */
-    border-radius: 10px;
-    padding: 10px;
-    width: 100%; /* Utilize maximum available width */
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%; /* Utilize maximum available width */
 }
 
 .experience_details td {
-    width: 50%; /* Distribute columns equally */
+  width: 50%; /* Distribute columns equally */
 }
 
 .projects {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
   /* border: 2px solid black; */
   border-radius: 10px;
   padding: 10px;
 }
 
-.projects h2{
-    text-align: center;
+.projects h2 {
+  text-align: center;
 }
 
-.projects p{
-    padding-left: 10px;
+.projects p {
+  padding-left: 10px;
+}
+
+.footer {
+  background-color: #3b424e;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0px;
 }
