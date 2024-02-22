@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Basics 3</title>
+</head>
+<body>
+    <script>
+        var str = "Welcome to SRM College!";
+        var pattern1 = /SRM/;
+        var pattern2 = /College/;
+
+        var match1 = pattern1.test(str);
+        var match2 = str.match(pattern1);
+
+        console.log(match1, "\n", match2);
+
+        var newStr = str.replace(pattern2, "University");
+        document.write(newStr);
+    </script>
+</html>

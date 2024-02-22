@@ -65,3 +65,38 @@ Example:
 </script>
 </body>
 </html> 
+
+## Difference between compiler and interpreter
+Compiler and Interpreter both are used to execute a program written in a high-level language. The main difference between compiler and interpreter is that the compiler converts the whole high-level program code into machine code at once while the interpreter converts the high-level program code into machine code line by line. Example of compiler based language is C and C++. Example of interpreter based language is Java and Python.
+executable file - .exe
+byte code - .class
+
+## console log
+The console object provides access to the browser's debugging console (e.g. the Web Console in Firefox). Log is used to print the output in the console.
+
+* console.log() - This method is used to log the output to the console.
+* document.write() - This function used to write the output to the document.
+
+## Regular Expression (regex) pattern matching in JavaScript
+A regular expression is a sequence of characters that forms a search pattern. When you search for data in a text, you can use this search pattern to describe what you are searching for. A regular expression can be a single character, or a more complicated pattern. Regular expressions can be used to perform all types of text search and text replace operations.
+
+* Creating Regular Expression
+There are two ways to create a regular expression:
+- Using a regular expression literal, which consists of a pattern enclosed between slashes
+- Using the RegExp constructor function
+for example:
+var pattern1 = new RegExp("hello");
+or
+var pattern2 = /hello/;
+
+## Searching for Patterns
+The search() method searches a string for a specified value and returns the position of the match. The search value can be string or a regular expression. This method returns -1 if no match is found.
+for example:
+var str = "Visit W3Schools!";
+var n = str.search("W3Schools");
+
+## Replacing Patterns
+The replace() method replaces a specified value with another value in a string. The replace value can be string or a regular expression. The original string is left unchanged. This method does not change the original string.
+for example:
+var str = "Visit Microsoft!";
+var res = str.replace("Microsoft", "W3Schools");
