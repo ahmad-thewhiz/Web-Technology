@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        function add() {
+            var x = 10, y = 20;
+            return x + y;
+        }
+        var sum = add();
+    </script>
+    <!-- <script>
+        document.write('addition = ' + sum);  
+    </script> -->
+
+    <!-- <script>
+        var add=new Function("num1", "num2", "return num1 + num2");
+        document.writeln(add(2,5));
+    </script> -->
+
+    <script>
+        // var emp = ["Raju", "Khanduja", "Methwani", "Dutt", "Chandra", "Mahmood"];
+        var emp = new Array();
+        emp[0] = "Raju";
+        emp[1] = "Khanduja";
+        emp[2] = "Methwani";
+        emp[3] = "Dutt";
+        emp[4] = "Chandra";
+        emp[5] = "Mahmood";
+
+        // var emp = new Array("Raju", "Khanduja", "Methwani", "Dutt", "Chandra", "Mahmood");
+
+        for (i = 0; i < emp.length; i++) {
+            document.write(emp[i] + "<br/>");
+        }
+    </script>
+</body>
+
+</html>

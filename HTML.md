@@ -126,3 +126,32 @@ The HTML <table> tag is used to create a table. A table is defined with the <tab
 The style attribute is used to add styles to an element, such as color, font, size, and more. The style attribute can contain any CSS property. The property is specified using a CSS property name, followed by a colon, followed by a value. The value is specified using the property's value.
 <tagname style="property:value;">
 
+## Forms
+HTML form is used to collect user input. The user input is most often sent to server for processing.
+Syntax:
+<form action="url" method="get/post">
+  <input type="text" name="username">
+  <input type="password" name="password">
+  <input type="submit" value="Submit">
+
+### Input Tag
+The HTML <input> element is the most used form element. An <input> element can be displayed in many ways, depending on the type attribute. The type attribute specifies the type of <input> element to display. The default type is text. The <input> element is a self-contained element, meaning it does not have a separate end tag.
+<input type="text"> - Displays a single-line text input field
+<input type="password"> - Displays a single-line password input field
+<input type="radio"> - Displays a radio button
+<input type="checkbox"> - Displays a checkbox
+<input type="submit"> - Displays a submit button
+<input type="reset"> - Displays a reset button
+
+### The <label> Element
+The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user is focused on the input element. The <label> element is used in conjunction with the <input> element to improve the user experience. The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+
+## The min and max Attributes
+The min and max attributes are used to set the minimum and maximum values for an input field. The min attribute specifies the minimum value for an input field. The max attribute specifies the maximum value for an input field.
+Example:
+<input type="number" name="quantity" min="1" max="5">
+
+set a max date, a min date and a range date in a date field:
+<input type="date" name="bday" max="2021-12-31" min="2015-01-01" value="2021-12-31">
+
+
