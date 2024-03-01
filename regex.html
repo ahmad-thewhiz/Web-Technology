@@ -16,5 +16,23 @@
 
         var newStr = str.replace(pattern2, "University");
         document.write(newStr);
+
+        var mobileNumber = "91-1234567890";
+        var pattern3 = /\d{2}-\d{10}/;
+        var match3 = pattern3.test(mobileNumber);
+        if(match3)
+            console.log("Valid mobile number");
+        else
+            console.log("Invalid mobile number");
+
+        var email = "temp@gmail.com";
+        const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        var match4 = emailRegex.test(email);
+        if(match4)
+            console.log("Valid email");
+        else
+            console.log("Invalid email");
+
+
     </script>
 </html>

@@ -100,3 +100,16 @@ The replace() method replaces a specified value with another value in a string. 
 for example:
 var str = "Visit Microsoft!";
 var res = str.replace("Microsoft", "W3Schools");
+
+## Modifiers
+Modifiers are used to perform case-insensitive and global searches. Modifiers are used with regular expression. The following table lists the modifiers:
+Modifier	Description
+i	Perform case-insensitive matching
+g	Perform a global match (find all matches rather than stopping after the first match)
+m	Perform multiline matching
+for example:
+var str = "Visit W3Schools!";
+var n = str.search(/w3schools/i);
+
+* these methods can be used to extract the data from the string and perform the operations on the string.
+
